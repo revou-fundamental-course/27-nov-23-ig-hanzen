@@ -1,0 +1,112 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navigation-bar {
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: rgb(49, 32, 109);
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-top: 0;
+    color: aliceblue;
+}
+
+.side-top {
+    height: 80px;
+}
+
+.mid-post {
+    margin-top: 0px;
+    width: calc(60%);
+    margin: 10px;
+    padding: 1px;
+    margin-left: 350px;
+}
+
+.navigation> a{
+    text-decoration: overline;
+    color: white;
+}
+
+/* INPUT SECTION */
+
+.input-luas-section {
+
+    flex-direction: column;
+    margin-top: 26px;
+}
+
+.label {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.hanzen-input {
+    outline: none;
+    border-radius: 10px;
+    padding: 8px;
+    border: 1px solid rgb(158, 80, 158);
+    margin: 1px;
+}
+.hanzen-input:focus{
+    border: 1px solid red;
+}
+
+.luas {
+    margin: 15px;
+}
+
+.keliling {
+    margin: 15px;
+}
+
+.buttons {
+    align-self: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(99, 56, 139);
+}
+
+button:active {
+    background-color: rgb(0, 0, 0);
+    transform: translateY(2px);
+}
+
+/*side figure*/
+
+.side-left {
+    left: 0;
+    width: 15%;
+    height: calc(100%);
+    position: fixed;
+    top: 81px;
+    background: rgb(245, 228, 228);
+}
+
+.side-right {
+    right: 0;
+    width: 15%;
+    height: calc(100%);
+    position: fixed;
+    top: 81px;
+    background: rgb(245, 228, 228);
+}

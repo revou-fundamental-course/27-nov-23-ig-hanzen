@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kalkulator Segitiga</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header id="navigation-bar">
+            <div class="mid-post">
+            <h3 id="logo">Hanzen</h3>
+            <nav class="navigation">
+                <a href="">Luas Segitiga</a>    
+                <a href="">Keliling Segitiga</a>
+            </nav>
+            </div>
+        </header>
+        <div class="side-top"></div>
+        <main class="mid-post">
+            <div><img src="https://www.society.co.id/wp-content/uploads/2022/06/Rumus-keliling-segitiga.jpeg" alt="none"></div>
+            <h2>Luas Segitiga</h2>
+        <section class="input-luas-section">
+            <label for="input-tinggi" id="label-tinggi">Tinggi</label>
+            <input type="number" id="input-tinggi" class="hanzen-input">
+            <label for="input-alas" id="label-alas">Alas</label>
+            <input type="number" id="input-alas" class="hanzen-input">
+            <div class="luas">
+                <label for="input-luas" id="labelluas">Luas</label>
+                <input type="number" name="luas" id="displayluas" class="hanzen-input" disabled="true"> 
+            </div>   
+                <div class="buttons">
+                <button type="submit" id="hitungluas" onclick="luas()">Hitung</button>
+                <button type="reset" id="resetluas" onclick="resetL()">Reset</button>
+                </div>
+        </section>
+
+            <h2>Keliling Segitiga</h2>
+        <section class="input-luas-section">
+            <label for="input-side01" id="label-side01">sisi A</label>
+            <input type="number" id="input-side01" class="hanzen-input">
+            <label for="input-side02" id="label-side02">sisi B</label>
+            <input type="number" id="input-side02" class="hanzen-input">
+            <label for="input-side03" id="label-side03">sisi C</label>
+            <input type="number" id="input-side03" class="hanzen-input">
+            <div class="keliling">
+                <label for="input-keliling" id="label-keliling">Keliling</label>
+                <input type="text" name="Keliling" id="inputkeliling" class="hanzen-input" disabled="true">
+            </div>
+            <div class="buttons">
+                <button type="submit" id="hitungkeliling" onclick="keliling()">Hitung</button>
+                <button type="reset" id="resetkeliling" onclick="resetK()">Reset</button>
+            </div>
+        </section>
+        </main>
+        <div class="side-left"></div>
+        <div class="side-right"></div>
+    <script src="js/script.js"></script>
+    </body>
+</html>
